@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="port.css" type="text/css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="head">T<span class="sp">ANU.</span></h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Tanu Priya</span><br>from Chandigarh, India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------about---------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/user-wptanu.jpg" height="600" width="600">
+                    </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Tanu Priya, and I'm currently in my second year of pursuing a career in web development. My journey into the world of web development began with a strong passion for technology and a desire to create interactive and user-friendly digital experiences.
+                        Over the past two years, I've been on an exciting learning adventure, diving deep into both front-end and back-end development. I've become proficient in various programming languages, such as HTML, CSS, JavaScript, and I'm continually expanding my knowledge to include more advanced technologies like React, Node.js, and SQL.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full Stack</span><br>Full Stack Development</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Till date</span><br>Bharat Intern</li>
+                            <li><span>2022-2023</span><br>CodeChef</li>
+                            <li><span>2020-2022</span><br>Coding Ninjas</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026</span><br>BE - CSE</li>
+                            <li><span>2022</span><br>KV1 chm</li>
+                            <li><span>2020</span><br>X - kv1 Chm</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------services---------------------------->
+    <div id="services">
+
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Proficient in front-end web development technologies, including HTML5, CSS3, JavaScript, and responsive design frameworks such as Bootstrap.
+                        Skilled in user experience (UX) and user interface (UI) design, with a keen eye for detail and aesthetics.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>Conducted user research, interviews, and usability testing to gather valuable insights and refine app designs, leading to a [X]% improvement in user satisfaction.
+                        Created interactive prototypes to demonstrate app functionality and usability, facilitating productive discussions with stakeholders and developers.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>Created interactive prototypes to validate design concepts and functionality, facilitating productive discussions with stakeholders and developers.
+                        Collaborated closely with developers to ensure seamless implementation of design specifications, resulting in a consistent and visually cohesive user experience.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="respo.js">
+
+    </script>
+</body>
+</html>
